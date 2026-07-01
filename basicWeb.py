@@ -53,7 +53,7 @@ def home():
 @app.route("/update_server", methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        repo = git.Repo('/home/FlaskProjectD/Flask--Project')
+        repo = git.Repo('/home/FlaskProjectDM/Flask--Project')
         origin = repo.remotes.origin
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
