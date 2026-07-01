@@ -40,7 +40,7 @@ def register():
 
 @app.route("/")
 def hello_world():
-  return "<p>Hello, World! Today is July 1 of 2026</p>"
+  return "<p>Hello, World! Today is July 1 of 2026!</p>"
 
 @app.route("/second_page")
 def second_page():
